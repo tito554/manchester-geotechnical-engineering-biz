@@ -1,0 +1,62 @@
+# Manchester
+
+> Geotechnical engineering company in United States, providing professional services in soil mechanics, foundation engineering and site investigation.
+
+## Services
+- [Active Passive Anchor Design](https://manchester.geotechnical-engineering.biz/active-passive-anchor-design/)
+- [Base Isolation Seismic Design](https://manchester.geotechnical-engineering.biz/base-isolation-seismic-design/)
+- [Bearing Capacity Analysis](https://manchester.geotechnical-engineering.biz/bearing-capacity-analysis/)
+- [Cbr Study Road Design](https://manchester.geotechnical-engineering.biz/cbr-study-road-design/)
+- [Cone Penetration](https://manchester.geotechnical-engineering.biz/cone-penetration/)
+- [Debris Flow Analysis](https://manchester.geotechnical-engineering.biz/debris-flow-analysis/)
+- [Deep Soil Mixing](https://manchester.geotechnical-engineering.biz/deep-soil-mixing/)
+- [Diaphragm Wall Design](https://manchester.geotechnical-engineering.biz/diaphragm-wall-design/)
+- [Direct Shear](https://manchester.geotechnical-engineering.biz/direct-shear/)
+- [Dynamic Compaction Design](https://manchester.geotechnical-engineering.biz/dynamic-compaction-design/)
+- [Electrical Resistivity Ves](https://manchester.geotechnical-engineering.biz/electrical-resistivity-ves/)
+- [Expansive Soil Evaluation](https://manchester.geotechnical-engineering.biz/expansive-soil-evaluation/)
+- [Field Density](https://manchester.geotechnical-engineering.biz/field-density/)
+- [Field Permeability](https://manchester.geotechnical-engineering.biz/field-permeability/)
+- [Field Vane Shear](https://manchester.geotechnical-engineering.biz/field-vane-shear/)
+- [Flat Dilatometer](https://manchester.geotechnical-engineering.biz/flat-dilatometer/)
+- [Flexible Pavement Design](https://manchester.geotechnical-engineering.biz/flexible-pavement-design/)
+- [Foundations](https://manchester.geotechnical-engineering.biz/foundations/)
+- [Foundations Fill](https://manchester.geotechnical-engineering.biz/foundations-fill/)
+- [Geocell Design](https://manchester.geotechnical-engineering.biz/geocell-design/)
+- [Geogrid Specification](https://manchester.geotechnical-engineering.biz/geogrid-specification/)
+- [Geomembrane Specification](https://manchester.geotechnical-engineering.biz/geomembrane-specification/)
+- [Geophysics](https://manchester.geotechnical-engineering.biz/geophysics/)
+- [Geotechnical Excavation Monitoring](https://manchester.geotechnical-engineering.biz/geotechnical-excavation-monitoring/)
+- [Geotechnical Instrumentation](https://manchester.geotechnical-engineering.biz/geotechnical-instrumentation/)
+- [Geotechnical Road Drainage](https://manchester.geotechnical-engineering.biz/geotechnical-road-drainage/)
+- [Geotechnical Slope Monitoring](https://manchester.geotechnical-engineering.biz/geotechnical-slope-monitoring/)
+- [Geotextile Specification](https://manchester.geotechnical-engineering.biz/geotextile-specification/)
+- [Grain Size Analysis](https://manchester.geotechnical-engineering.biz/grain-size-analysis/)
+- [Ground Improvement](https://manchester.geotechnical-engineering.biz/ground-improvement/)
+- [Ground Penetrating Radar](https://manchester.geotechnical-engineering.biz/ground-penetrating-radar/)
+- [Grouting Design](https://manchester.geotechnical-engineering.biz/grouting-design/)
+- [Hvsr Microtremor Survey](https://manchester.geotechnical-engineering.biz/hvsr-microtremor-survey/)
+- [In Situ Testing](https://manchester.geotechnical-engineering.biz/in-situ-testing/)
+- [Investigation](https://manchester.geotechnical-engineering.biz/investigation/)
+- [Jet Grouting Design](https://manchester.geotechnical-engineering.biz/jet-grouting-design/)
+- [Laboratory](https://manchester.geotechnical-engineering.biz/laboratory/)
+- [Laboratory Permeability](https://manchester.geotechnical-engineering.biz/laboratory-permeability/)
+- [Landslide Assessment](https://manchester.geotechnical-engineering.biz/landslide-assessment/)
+- [Lime Cement Stabilization](https://manchester.geotechnical-engineering.biz/lime-cement-stabilization/)
+- [Mechanically Stabilized Earth](https://manchester.geotechnical-engineering.biz/mechanically-stabilized-earth/)
+- [Menard Pressuremeter](https://manchester.geotechnical-engineering.biz/menard-pressuremeter/)
+- [Micropile Design](https://manchester.geotechnical-engineering.biz/micropile-design/)
+- [Oedometer Consolidation](https://manchester.geotechnical-engineering.biz/oedometer-consolidation/)
+- [Pavement Subgrade Design](https://manchester.geotechnical-engineering.biz/pavement-subgrade-design/)
+- [Pile Foundation Design](https://manchester.geotechnical-engineering.biz/pile-foundation-design/)
+- [Pile Skin Friction Vs](https://manchester.geotechnical-engineering.biz/pile-skin-friction-vs/)
+- [Plate Load](https://manchester.geotechnical-engineering.biz/plate-load/)
+- [Prefabricated Vertical Drain](https://manchester.geotechnical-engineering.biz/prefabricated-vertical-drain/)
+- [Preloading Design](https://manchester.geotechnical-engineering.biz/preloading-design/)
+
+## Contact
+- Website: https://manchester.geotechnical-engineering.biz/
+
+## About
+This page provides information about geotechnical engineering services available in United States.
+The company complies with local and international standards including ASTM, ISO and country-specific norms.
