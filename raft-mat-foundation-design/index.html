@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 .cat-row:hover{background:rgba(255,255,255,.05)}
 .cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
 main p { margin-bottom: 1rem; color: #334155; }
@@ -48,10 +53,10 @@ h1, h2, h3, h4 { font-family: var(--font-h); }
 .sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 a { color: var(--primary); text-decoration: none; }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
-    .header-top { flex-direction: column; text-align: center; }
-    .container { padding: 1rem; }
+    
+    
 summary::-webkit-details-marker { display: none; }
-    main { padding: 1.5rem; }
+    
 main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
 th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
 .cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
@@ -60,7 +65,7 @@ summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(-
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
 .cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
-    .content-area { flex-direction: column; }
+    
 
 .content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
 :root {
@@ -136,7 +141,9 @@ main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1p
     padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
     margin-bottom: 1.25rem; font-size: 1rem;
 }
-.cat-name:hover{text-decoration:underline;text-underline-offset:3px}</style>
+.cat-name:hover{text-decoration:underline;text-underline-offset:3px}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1p
   main{flex:1!important;min-width:0!important}
   aside{align-self:start!important}
 img{max-width:100%!important;height:auto!important}
-  .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}</style></head>
+  .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
+}
+</style></head>
 <body>
 
 <header>
@@ -192,6 +201,8 @@ img{max-width:100%!important;height:auto!important}
 
             <section>
                 <h2>Critical ground factors in Manchester</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>Manchester sits on the Lancashire Coal Measures, with abundant old mine workings beneath parts of the city centre. The Coal Authority records show over 400 recorded mine entries within the M60 ring road. A raft foundation must account for potential subsidence from shallow workings. We review historical mining plans and often recommend a void detection survey before finalising the raft layout. Without this step, a hidden void can cause a sudden loss of support under the slab, leading to cracking in the superstructure. The raft's stiffness becomes critical here: it must span potential voids without overstressing the concrete.</p>
             </section>
 
@@ -216,6 +227,8 @@ img{max-width:100%!important;height:auto!important}
 
             <section>
                 <h2>Quick answers</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>When is a raft foundation better than strip footings in Manchester?</summary><p>A raft is preferred when bearing capacity is low or variable across the site, or when differential settlement must be tightly controlled. In Manchester's made ground zones, a raft bridges weak spots that would cause excessive settlement under isolated footings.</p></details><details><summary>What ground conditions in Manchester require a raft foundation?</summary><p>Sites with soft alluvial clays, peat, or shallow mine workings typically need a raft. We also recommend rafts where groundwater is high and uplift forces could lift a shallow foundation. The glacial till itself is competent, but the overlying made ground often creates the need.</p></details><details><summary>How does the raft design account for mining subsidence?</summary><p>We review Coal Authority records and historical mine plans. If shallow workings are identified, we design the raft with additional reinforcement and a thicker slab to span potential voids. In extreme cases, we specify a reinforced concrete grid with deeper beams.</p></details><details><summary>What is the typical cost range for a raft foundation design in Manchester?</summary><p>The cost for a full geotechnical assessment and raft design typically falls between £940 and £3,500, depending on site complexity, number of boreholes, and lab testing volume. The final cost is confirmed after the site walkover.</p></details>
             </section>
 

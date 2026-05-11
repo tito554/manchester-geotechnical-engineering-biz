@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 .cat-row:hover{background:rgba(255,255,255,.05)}
 .cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
 main p { margin-bottom: 1rem; color: #334155; }
@@ -48,10 +53,10 @@ h1, h2, h3, h4 { font-family: var(--font-h); }
 .sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 a { color: var(--primary); text-decoration: none; }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
-    .header-top { flex-direction: column; text-align: center; }
-    .container { padding: 1rem; }
+    
+    
 summary::-webkit-details-marker { display: none; }
-    main { padding: 1.5rem; }
+    
 main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
 th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
 .cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
@@ -60,7 +65,7 @@ summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(-
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
 .cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
-    .content-area { flex-direction: column; }
+    
 
 .content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
 :root {
@@ -136,7 +141,9 @@ main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1p
     padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
     margin-bottom: 1.25rem; font-size: 1rem;
 }
-.cat-name:hover{text-decoration:underline;text-underline-offset:3px}</style>
+.cat-name:hover{text-decoration:underline;text-underline-offset:3px}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1p
   main{flex:1!important;min-width:0!important}
   aside{align-self:start!important}
 img{max-width:100%!important;height:auto!important}
-  .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}</style></head>
+  .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
+}
+</style></head>
 <body>
 
 <header>
@@ -192,6 +201,8 @@ img{max-width:100%!important;height:auto!important}
 
             <section>
                 <h2>Critical ground factors in Manchester</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>Manchester's glacial geology includes laminated clays and sand lenses within the till, which can cause sudden drops in skin friction at certain horizons. If the pile socket passes through a sand seam, shaft resistance may reduce locally by 30-40%, shifting load to the tip before it is designed to carry it. The Coal Measures bedrock is also laterally variable; mudstone bands within the sandstone sequence offer much lower end bearing values. Without a detailed load-transfer <a href="../foundations-fill/" data-interlink="1">analysis</a>, a pile designed as end-bearing may actually shed significant load through the shaft, or vice versa. This mismatch can lead to excessive settlement or even structural distress in the superstructure.</p>
             </section>
 
@@ -216,6 +227,8 @@ img{max-width:100%!important;height:auto!important}
 
             <section>
                 <h2>Quick answers</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>How does the glacial till in Manchester affect the skin friction vs. end bearing split?</summary><p>Manchester's glacial till is a dense, overconsolidated clay with occasional sand lenses. In this material, skin friction typically provides 70-80% of the pile's ultimate capacity. The shaft resistance depends on the undrained shear strength of the till, which can range from 150 to 250 kPa. End bearing only becomes significant once the pile tips into the underlying Coal Measures sandstone or mudstone. We use instrumented load tests to quantify the split at each specific site.</p></details><details><summary>What is the typical cost range for an instrumented pile load test in Manchester?</summary><p>The cost for an instrumented static load test in Manchester typically falls between £930 and £2,760, depending on pile diameter, test load magnitude, and the number of strain gauge levels installed. This includes mobilisation, installation of gauges, data acquisition, and a full report with t-z and q-z curves. More complex tests with multiple reaction piles or Osterberg cells will be at the higher end of this range.</p></details><details><summary>When should I choose end-bearing piles over friction piles in Manchester?</summary><p>End-bearing piles are the right choice when the bedrock (Coal Measures sandstone) is within reachable depth—typically less than 25 m in parts of the city centre. Friction piles, relying on shaft resistance in the glacial till, are more economical where bedrock is deeper, such as in Didsbury or Chorlton. However, the till's sand lenses can reduce shaft resistance locally, so a proper load-transfer <a href="../foundations-fill/" data-interlink="1">analysis</a> is essential before deciding. We often recommend a combination: a friction pile in the till with a socket into the bedrock for end bearing.</p></details>
             </section>
 

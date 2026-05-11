@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 .cat-row:hover{background:rgba(255,255,255,.05)}
 .cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
 main p { margin-bottom: 1rem; color: #334155; }
@@ -48,10 +53,10 @@ h1, h2, h3, h4 { font-family: var(--font-h); }
 .sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 a { color: var(--primary); text-decoration: none; }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
-    .header-top { flex-direction: column; text-align: center; }
-    .container { padding: 1rem; }
+    
+    
 summary::-webkit-details-marker { display: none; }
-    main { padding: 1.5rem; }
+    
 main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
 th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
 .cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
@@ -60,7 +65,7 @@ summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(-
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
 .cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
-    .content-area { flex-direction: column; }
+    
 
 .content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
 :root {
@@ -136,7 +141,9 @@ main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1p
     padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
     margin-bottom: 1.25rem; font-size: 1rem;
 }
-.cat-name:hover{text-decoration:underline;text-underline-offset:3px}</style>
+.cat-name:hover{text-decoration:underline;text-underline-offset:3px}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1p
   main{flex:1!important;min-width:0!important}
   aside{align-self:start!important}
 img{max-width:100%!important;height:auto!important}
-  .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}</style></head>
+  .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
+}
+</style></head>
 <body>
 
 <header>
@@ -192,6 +201,8 @@ img{max-width:100%!important;height:auto!important}
 
             <section>
                 <h2>Critical ground factors in Manchester</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>Eurocode 7 (BS EN 1997-1:2004) demands that micropile design accounts for both structural and geotechnical limit states, and in Manchester the main risk is variable ground conditions within a single site. A borehole 10 metres away can show completely different SPT profiles, especially where old cellars or mill foundations remain undocumented. We mitigate this by specifying preliminary test piles on at least two per cent of the working piles, with static load tests to 1.5 times the design load. Without that verification, bond stress assumptions can be wildly optimistic in the laminated glacial clays typical of the region. Groundwater control is another risk: perched water in the fill above the till can wash out fresh grout if casing is withdrawn too early.</p>
             </section>
 
@@ -216,6 +227,8 @@ img{max-width:100%!important;height:auto!important}
 
             <section>
                 <h2>Quick answers</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>How does micropile design differ in Manchester's glacial till versus other UK soils?</summary><p>Glacial till in Manchester is typically a stiff, fissured clay with cobbles and boulders, which gives good shaft friction but makes drilling unpredictable. We use continuous flight augers with rock tools to handle the cobbles, and we limit bond stress to 80-120 kPa in the till unless test piles prove higher values. In softer alluvial soils we rely entirely on the socket into the underlying sandstone for capacity.</p></details><details><summary>What is the typical cost range for a micropile design project in Manchester?</summary><p>For a medium-sized residential or commercial project in Manchester, expect total design and testing costs between £1.240 and £3.690, depending on the number of test piles, ground investigation data available, and structural load requirements. This includes preliminary design, load testing, and final report with drawings.</p></details><details><summary>Can micropiles be installed near Manchester's historic buildings without damage?</summary><p>Yes. Micropiles produce very low vibration (typically below 2 mm/s peak particle velocity), which is well within the safe threshold for Grade I and II listed structures common in Manchester's city centre. We also use continuous casing through the upper layers to prevent soil loss or settlement beneath adjacent foundations.</p></details><details><summary>What ground investigation data do you need before starting micropile design in Manchester?</summary><p>At minimum, we require boreholes to at least 5 metres below the proposed pile toe depth, with SPT values every metre, groundwater monitoring, and laboratory tests for shear strength and <a href="../soil-classification/" data-interlink="1">soil classification</a>. For sites on made ground or old industrial fill, we also recommend a trial pit to map obstructions before finalising the micropile layout.</p></details>
             </section>
 

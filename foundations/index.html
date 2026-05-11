@@ -23,6 +23,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 .cat-row:hover{background:rgba(255,255,255,.05)}
 .cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
 main p { margin-bottom: 1rem; color: #334155; }
@@ -45,10 +50,10 @@ h1, h2, h3, h4 { font-family: var(--font-h); }
 .sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 a { color: var(--primary); text-decoration: none; }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
-    .header-top { flex-direction: column; text-align: center; }
-    .container { padding: 1rem; }
+    
+    
 summary::-webkit-details-marker { display: none; }
-    main { padding: 1.5rem; }
+    
 main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
 th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
 .cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
@@ -57,7 +62,7 @@ summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(-
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
 .cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
-    .content-area { flex-direction: column; }
+    
 
 .content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
 :root {
@@ -133,7 +138,9 @@ main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1p
     padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
     margin-bottom: 1.25rem; font-size: 1rem;
 }
-.cat-name:hover{text-decoration:underline;text-underline-offset:3px}</style>
+.cat-name:hover{text-decoration:underline;text-underline-offset:3px}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -145,7 +152,9 @@ main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1p
   main{flex:1!important;min-width:0!important}
   aside{align-self:start!important}
 img{max-width:100%!important;height:auto!important}
-  .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"name":"Foundations in Manchester – UK","inLanguage":"en","url":"https://manchester.geotechnical-engineering.biz/foundations/","@type":"WebPage","isPartOf":{"@type":"WebSite","url":"https://manchester.geotechnical-engineering.biz","@id":"https://manchester.geotechnical-engineering.biz/#website-19f5"},"@id":"https://manchester.geotechnical-engineering.biz/foundations/","description":"Foundation design in Manchester must contend with the region’s complex glacial geology, where sequences of till, sand, gravel, and soft alluvial deposits c"},{"itemListElement":[{"@type":"ListItem","item":"https://manchester.geotechnical-engineering.biz/","position":1,"name":"Home"},{"@type":"ListItem","item":"https://manchester.geotechnical-engineering.biz/foundations/","position":2,"name":"Foundations"}],"@type":"BreadcrumbList"},{"name":"Foundations","itemListElement":[{"@type":"ListItem","position":1,"url":"https://manchester.geotechnical-engineering.biz/bearing-capacity-analysis/","name":"Bearing capacity analysis"},{"@type":"ListItem","position":2,"url":"https://manchester.geotechnical-engineering.biz/expansive-soil-evaluation/","name":"Expansive soil evaluation"},{"@type":"ListItem","position":3,"url":"https://manchester.geotechnical-engineering.biz/foundations-fill/","name":"Foundations on fill (analysis)"},{"@type":"ListItem","position":4,"url":"https://manchester.geotechnical-engineering.biz/micropile-design/","name":"Micropile design"},{"@type":"ListItem","position":5,"url":"https://manchester.geotechnical-engineering.biz/pile-foundation-design/","name":"Pile foundation design"},{"@type":"ListItem","position":6,"url":"https://manchester.geotechnical-engineering.biz/pile-skin-friction-vs/","name":"Pile skin friction vs. end bearing analysis"},{"@type":"ListItem","position":7,"url":"https://manchester.geotechnical-engineering.biz/raft-mat-foundation-design/","name":"Raft/mat foundation design"},{"@type":"ListItem","position":8,"url":"https://manchester.geotechnical-engineering.biz/seismic-foundation-design/","name":"Seismic foundation design"},{"@type":"ListItem","position":9,"url":"https://manchester.geotechnical-engineering.biz/shallow-foundation-design/","name":"Shallow foundation design"}],"@type":"ItemList"}]}</script></head>
+  .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
+}
+</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"name":"Foundations in Manchester – UK","inLanguage":"en","url":"https://manchester.geotechnical-engineering.biz/foundations/","@type":"WebPage","isPartOf":{"@type":"WebSite","url":"https://manchester.geotechnical-engineering.biz","@id":"https://manchester.geotechnical-engineering.biz/#website-19f5"},"@id":"https://manchester.geotechnical-engineering.biz/foundations/","description":"Foundation design in Manchester must contend with the region’s complex glacial geology, where sequences of till, sand, gravel, and soft alluvial deposits c"},{"itemListElement":[{"@type":"ListItem","item":"https://manchester.geotechnical-engineering.biz/","position":1,"name":"Home"},{"@type":"ListItem","item":"https://manchester.geotechnical-engineering.biz/foundations/","position":2,"name":"Foundations"}],"@type":"BreadcrumbList"},{"name":"Foundations","itemListElement":[{"@type":"ListItem","position":1,"url":"https://manchester.geotechnical-engineering.biz/bearing-capacity-analysis/","name":"Bearing capacity analysis"},{"@type":"ListItem","position":2,"url":"https://manchester.geotechnical-engineering.biz/expansive-soil-evaluation/","name":"Expansive soil evaluation"},{"@type":"ListItem","position":3,"url":"https://manchester.geotechnical-engineering.biz/foundations-fill/","name":"Foundations on fill (analysis)"},{"@type":"ListItem","position":4,"url":"https://manchester.geotechnical-engineering.biz/micropile-design/","name":"Micropile design"},{"@type":"ListItem","position":5,"url":"https://manchester.geotechnical-engineering.biz/pile-foundation-design/","name":"Pile foundation design"},{"@type":"ListItem","position":6,"url":"https://manchester.geotechnical-engineering.biz/pile-skin-friction-vs/","name":"Pile skin friction vs. end bearing analysis"},{"@type":"ListItem","position":7,"url":"https://manchester.geotechnical-engineering.biz/raft-mat-foundation-design/","name":"Raft/mat foundation design"},{"@type":"ListItem","position":8,"url":"https://manchester.geotechnical-engineering.biz/seismic-foundation-design/","name":"Seismic foundation design"},{"@type":"ListItem","position":9,"url":"https://manchester.geotechnical-engineering.biz/shallow-foundation-design/","name":"Shallow foundation design"}],"@type":"ItemList"}]}</script></head>
 <body>
 
 <header>
@@ -208,6 +217,8 @@ img{max-width:100%!important;height:auto!important}
 
             <section>
                 <h2>Our services</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>We offer two anchor design services tailored to Manchester’s ground conditions:</p>
                 <style>.servicios-grid a.servicio-link:hover .servicio-arrow{transform:translateX(4px);opacity:1}.servicios-grid a.servicio-link{display:block;text-decoration:none;color:inherit;cursor:pointer}.servicios-grid a.servicio-link:hover h3{color:#059669}.servicio-arrow{position:absolute;right:1rem;bottom:.8rem;color:#059669;font-weight:700;opacity:.55;transition:transform .18s,opacity .18s}.servicios-grid a.servicio-link:hover{border-color:#059669;box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-2px)}.servicios-grid{display:flex;flex-wrap:wrap;gap:1rem;justify-content:flex-start}.servicios-grid .servicio{flex:0 0 calc(50% - .5rem);min-width:260px;padding:1rem 1.2rem;border:1px solid #E5E7EB;border-radius:10px;background:#FFFFFF;position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}</style><div class="servicios-grid"><div class="servicio"><h3>Permanent Anchor Design for Retaining Walls & Basements</h3><p>For permanent tieback solutions in city-centre basements, metro stations, and canal-side developments, we design active anchors with double corrosion protection and a 120-year service life. Each design includes a detailed bond zone assessment based on site-specific SPT and triaxial data, plus a lock-off verification procedure to confirm long-term load retention.</p></div><div class="servicio"><h3>Temporary Anchor Design for Excavation Support</h3><p>For temporary works — typically soldier pile walls or sheet pile cofferdams — we design passive anchors with shorter bond lengths and single corrosion protection, optimising for speed and cost. We provide the contractor with a clear installation sequence, including grouting pressures, curing times, and a proof-loading schedule that integrates with the excavation programme.</p></div></div>
             </section>

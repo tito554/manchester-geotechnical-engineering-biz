@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 .cat-row:hover{background:rgba(255,255,255,.05)}
 .cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
 main p { margin-bottom: 1rem; color: #334155; }
@@ -48,10 +53,10 @@ h1, h2, h3, h4 { font-family: var(--font-h); }
 .sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 a { color: var(--primary); text-decoration: none; }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
-    .header-top { flex-direction: column; text-align: center; }
-    .container { padding: 1rem; }
+    
+    
 summary::-webkit-details-marker { display: none; }
-    main { padding: 1.5rem; }
+    
 main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
 th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
 .cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
@@ -60,7 +65,7 @@ summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(-
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
 .cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
-    .content-area { flex-direction: column; }
+    
 
 .content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
 :root {
@@ -136,7 +141,9 @@ main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1p
     padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
     margin-bottom: 1.25rem; font-size: 1rem;
 }
-.cat-name:hover{text-decoration:underline;text-underline-offset:3px}</style>
+.cat-name:hover{text-decoration:underline;text-underline-offset:3px}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1p
   main{flex:1!important;min-width:0!important}
   aside{align-self:start!important}
 img{max-width:100%!important;height:auto!important}
-  .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}</style></head>
+  .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
+}
+</style></head>
 <body>
 
 <header>
@@ -192,6 +201,8 @@ img{max-width:100%!important;height:auto!important}
 
             <section>
                 <h2>Critical ground factors in Manchester</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>The primary equipment for seismic foundation design in Manchester is the triaxial testing apparatus configured for cyclic loading. We use electromechanical dynamic triaxial systems capable of applying sinusoidal and irregular load histories at frequencies up to 5 Hz. For field characterisation, a portable seismic source (sledgehammer or vibroseis) paired with 24-channel geophone arrays captures shear wave refraction data. The biggest operational risk in Manchester is drilling through the buried river channels, where running sands and high water tables cause borehole collapse. We mitigate this with continuous casing and polymer muds, but even then, sample disturbance in water-bearing granular layers remains a concern for dynamic property determination.</p>
             </section>
 
@@ -216,6 +227,8 @@ img{max-width:100%!important;height:auto!important}
 
             <section>
                 <h2>Quick answers</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>What is the typical ground shaking hazard for Manchester compared to other UK cities?</summary><p>Manchester's peak ground acceleration for a 475-year return period is 0.10–0.16 g, placing it in the moderate hazard band for the UK. This is similar to Liverpool and higher than London (0.04–0.08 g) but lower than the Scottish Highlands. The hazard is driven by intraplate tectonics — primarily reactivated basement faults beneath the Cheshire Basin.</p></details><details><summary>Do I need seismic design for a two-storey house in Manchester?</summary><p>For domestic two-storey structures on stiff ground (Vs30 > 360 m/s), Eurocode 8 exempts them from seismic design. However, if the house sits on soft alluvium near the River Irwell or Medlock, site-specific assessment is advisable because amplification can increase effective PGA by 1.5–2.0 times. Always check the NHBC guidelines if you are building new.</p></details><details><summary>What is the cost range for a seismic foundation design study in Manchester?</summary><p>A complete seismic foundation design study in Manchester typically costs between £1,010 and £3,600, depending on site complexity, number of boreholes, and required laboratory testing. Simple desktop hazard assessments start at the lower end, while projects needing cyclic <a href="../triaxial/" data-interlink="1">triaxial tests</a> and time-history analyses approach the upper range.</p></details>
             </section>
 
